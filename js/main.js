@@ -3,8 +3,11 @@
 	'use strict';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> origin/master
 =======
 >>>>>>> origin/master
 	// iPad and iPod detection	
@@ -20,7 +23,10 @@
 	};
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/master
 	// Full height
 	var fullHeight = function() {
 		if ( !isiPhone() || !isiPad() ) {
@@ -71,15 +77,21 @@
 		$(window).stellar();
 	};	
 	
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 	// Parallax
 	var parallax = function() {
 		$(window).stellar();
 	};
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 =======
+=======
+>>>>>>> origin/master
 	
 
 
@@ -130,12 +142,16 @@
 	    }
 		});
 	};
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 
 	// Burger Menu
 	var burgerMenu = function() {
 
 		$('body').on('click', '.js-fh5co-nav-toggle', function(event){
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 			event.preventDefault();
@@ -149,12 +165,15 @@
 			
 			
 =======
+=======
+>>>>>>> origin/master
 			if ( $('#navbar').is(':visible') ) {
 				$(this).removeClass('active');	
 			} else {
 				$(this).addClass('active');	
 			}
 			event.preventDefault();
+<<<<<<< HEAD
 >>>>>>> origin/master
 		});
 
@@ -210,6 +229,12 @@
 		$el.each(function(){
 			$(this).find('a[data-nav-section="'+section+'"]').closest('li').addClass('active');
 =======
+=======
+		});
+
+	};
+
+>>>>>>> origin/master
 	// Off Canvass
 	var offCanvass = function() {
 
@@ -258,6 +283,7 @@
 					$('html').removeClass('mobile-menu-expanded');
 				}
 			}
+<<<<<<< HEAD
 >>>>>>> origin/master
 		});
 
@@ -283,11 +309,16 @@
 		  	}
 		}, {
 		  	offset: function() { return -$(this.element).height() + 155; }
+=======
+>>>>>>> origin/master
 		});
 
 	};
 
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> origin/master
 
 	// Magnific Popup
 	
@@ -303,6 +334,9 @@
 	};
 	
 	
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 	// Window Scroll
 	var windowScroll = function() {
@@ -327,6 +361,7 @@
 		});
 	};
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 	// Animations
@@ -609,6 +644,9 @@
 =======
 		var teamAnimate = function() {
 >>>>>>> origin/master
+=======
+		var teamAnimate = function() {
+>>>>>>> origin/master
 		var team = $('#fh5co-team');
 		if ( team.length > 0 ) {	
 
@@ -650,6 +688,7 @@
 		}
 	};
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 	
 	var faqAnimate = function() {
@@ -795,10 +834,13 @@
 
 =======
 >>>>>>> origin/master
+=======
+>>>>>>> origin/master
 
 	// Document on load.
 	$(function(){
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 		parallax();
 		burgerMenu();
@@ -821,6 +863,8 @@
 		footerAnimate();
 		
 =======
+=======
+>>>>>>> origin/master
 		fullHeight();
 		ScrollNext();
 		ScrollNext2();
@@ -833,6 +877,9 @@
 		imagePopup();
 		offCanvass();
 
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 
 	});

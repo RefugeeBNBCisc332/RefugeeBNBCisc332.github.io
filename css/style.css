@@ -1030,14 +1030,20 @@ h1, h2, h3, h4, h5, h6 {
 .js .to-animate,
 .js .to-animate-2,
 <<<<<<< HEAD
+<<<<<<< HEAD
 .js .single-animate {
   opacity: 0; }
 
 =======
+=======
+>>>>>>> origin/master
 .js .to-animate-3,
 .js .single-animate {
   opacity: 0;
 }
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 @media screen and (max-width: 480px) {
   .col-xxs-12 {
